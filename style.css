@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+h1{
+	text-align: center;
+	font-size: 4em;
+	background color: lightgreen;
+}
+h1, h2{
+	color: purple;
+}
+
+h2{
+	border-bottom:3px purple solid;
+
+}
+
+
+.logo{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 3px;
+	background-color:
+}
+
+#home-hero{
+	background-image: url(images/sunset.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+}
+
+#home-hero h1{
+	color: lightyellow;
+	padding-top: 165px;
+	text-shadow: 2px 2px 2px black;
+}
+
+nav{
+	background: orange;
+	border-top: 2px purple solid;
+	border-bottom: 2px purple solid;
+	padding: 5px;
+
+}
+
+main{
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+nav ul{
+	list-style-type:none ;
+	text-align: center;
+	padding-top: 12px;
+
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link{
+	color: white;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:hover{
+	color: gray;
+}
+
+nav a:active{
+	color:lightgray;
+}
+
+footer .fa{
+	color: purple;
+	font-size: 2em;
+}
+
+
+
+footer{
+	text-align: center;
+	border-top: 1px solid purple;
+	padding:10px;
+	clear: both;
+	background: orange;
+	color: purple;
+}
+
+@media only screen and (max-width: 1200px){
+	h1{
+		font-size: 2em;
+	}
+
+
+
+
+}
