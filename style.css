@@ -36,7 +36,7 @@ h2{
 
 #home-hero h1{
 	color: lightyellow;
-	padding-top: 165px;
+	padding-top: 140px;
 	text-shadow: 2px 2px 2px black;
 }
 
@@ -106,7 +106,29 @@ nav a:active{
 footer .fa{
 	color: purple;
 	font-size: 2em;
+	display: inline-block;
+  	margin-right: 1em;
+
+
 }
+
+main .fa{
+
+	font-size: 4em;
+	display: block;
+	text-align: center;
+}
+
+.bigthree{
+	text-align: center;
+}
+
+hr{
+
+	margin: 30px;
+}
+
+
 
 
 
@@ -118,6 +140,22 @@ footer{
 	background: orange;
 	color: purple;
 }
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
 
 @media only screen and (max-width: 1200px){
 	h1{
